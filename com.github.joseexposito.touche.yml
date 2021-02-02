@@ -32,7 +32,8 @@ modules:
     buildsystem: meson
     config-opts:
       - -Dflatpak=true
+      - -Dtarget-de=gnome
     sources:
       - type: archive
-        url: https://github.com/JoseExposito/touche/releases/download/1.0.0/flatpak-archive.tar.gz
-        sha256: c2b268d14bfefb56a040c5788cbac07dd0e1cb6fbebf8e8bd9f914ed9effa926
+        url: https://github.com/JoseExposito/touche/releases/download/1.0.1/flatpak-archive.tar.gz
+        sha256: cd0669a5fd44922d9c90e30991345946c94ec132a2b2f23c62729ab4a2264726
