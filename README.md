@@ -10,19 +10,16 @@ files to publish [Touché](https://github.com/JoseExposito/touche) on
 
 - Update the version number in `meson.build` and `package.json`
 - Update the changelog in `data/gnome.appdata.xml.in.in`, `data/elementary.appdata.xml.in.in` and `debian/changelog`.
-- Generate the Flatpak archive:
+- Create a tag to trigger the release GitHub workflow:
 ```bash
-$ npm run flatpak:archive
+$ git tag X.Y.X && git push && git push --tags
 ```
-- Copy the printed SHA-256 and paste it in `com.github.joseexposito.touche.yml`
-- Update the archive URL: `https://github.com/JoseExposito/touche/releases/download/X.Y.Z/flatpak-archive.tar.gz`
-- Commit and push changes
-- Generate a new release on [GitHub](https://github.com/JoseExposito/touche/releases/new) and add
-`../flatpak-archive.tar.gz` as attachment
+- Wait until the draft release gets created, add a description and publish it
 
 ### This repository:
 
-- Replicate the changes to `com.github.joseexposito.touche.yml` here
+- Download the `ARCHIVE-SHA256SUM` file from the Touché release, copy the SHA-256 sum and paste it in `com.github.joseexposito.touche.yml`
+- Update the archive URL in `com.github.joseexposito.touche.yml`: `https://github.com/JoseExposito/touche/releases/download/X.Y.Z/flatpak-archive.tar.gz`
 - Commit and push changes
 
 ## Useful links:
