@@ -19,7 +19,7 @@ $ git tag X.Y.X && git push && git push --tags
 ### This repository:
 
 - Download the `ARCHIVE-SHA256SUM` file from the Touché release, copy the SHA-256 sum and paste it in `com.github.joseexposito.touche.yml`
-- Update the archive URL in `com.github.joseexposito.touche.yml`: `https://github.com/JoseExposito/touche/releases/download/X.Y.Z/flatpak-archive.tar.gz`
+- Update the archive URL in `com.github.joseexposito.touche.yml`: `https://github.com/JoseExposito/touche/releases/download/X.Y.Z/archive.tar.gz`
 - Commit and push changes
 
 ## Useful links:
