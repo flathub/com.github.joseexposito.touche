@@ -9,7 +9,7 @@ files to publish [Touché](https://github.com/JoseExposito/touche) on
 ### Touché repository:
 
 - Update the version number in `meson.build`, `package.json` and `rpm/touche.spec`.
-- Update the changelog in `data/gnome.appdata.xml.in.in`, `data/elementary.appdata.xml.in.in`, `debian/changelog` and `rpm/touche.spec`.
+- Update the changelog in `data/app.appdata.xml.in.in`, `debian/changelog` and `rpm/touche.spec`.
 - Create a tag to trigger the release GitHub workflow:
 ```bash
 $ git tag X.Y.X && git push && git push --tags
