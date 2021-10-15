@@ -57,4 +57,4 @@ modules:
     sources:
       - type: archive
         url: https://github.com/JoseExposito/touche/releases/download/2.0.0/archive.tar.gz
-        sha256: 8d74962ffb8cba4561c37cbbbcde275e7c0ae92687ec3eebc61afbf99d649bce
+        sha256: b6cff8aa62832da490ea1bc9c6ee92b9bf035b334af55678d67e946975368036
