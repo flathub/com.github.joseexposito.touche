@@ -9,6 +9,7 @@ finish-args:
   - '--socket=wayland'
   - '--filesystem=~/.config'
   - '--filesystem=host:ro'
+  - '-device=dri'
 modules:
   - name: nodejs
     cleanup:
@@ -56,5 +57,5 @@ modules:
       - -Dsystem-config-file-path=/var/run/host/usr/share/touchegg/touchegg.conf
     sources:
       - type: archive
-        url: https://github.com/JoseExposito/touche/releases/download/2.0.0/archive.tar.gz
-        sha256: b6cff8aa62832da490ea1bc9c6ee92b9bf035b334af55678d67e946975368036
+        url: https://github.com/JoseExposito/touche/releases/download/2.0.1/archive.tar.gz
+        sha256: 574467c0f5b593c7b3a9d327819bad286ed19cf33f3cea0c145945eb67a577c9
