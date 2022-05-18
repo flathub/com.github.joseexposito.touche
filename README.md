@@ -25,3 +25,4 @@ $ git tag X.Y.X && git push && git push --tags
 ## Useful links:
 
 https://github.com/flathub/flathub/wiki/App-Maintenance
+
