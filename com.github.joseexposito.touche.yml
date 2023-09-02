@@ -1,6 +1,6 @@
 app-id: com.github.joseexposito.touche
 runtime: org.gnome.Platform
-runtime-version: '43'
+runtime-version: '44'
 sdk: org.gnome.Sdk
 command: com.github.joseexposito.touche
 finish-args:
@@ -16,8 +16,8 @@ modules:
       - '*'
     sources:
       - type: archive
-        url: https://nodejs.org/dist/v18.12.1/node-v18.12.1.tar.gz
-        sha256: ba8174dda00d5b90943f37c6a180a1d37c861d91e04a4cb38dc1c0c74981c186
+        url: https://nodejs.org/dist/v18.17.1/node-v18.17.1.tar.gz
+        sha256: 1157525a819c395020795ff8c49eee7472b8666cc256b45558b9cbe2e0864c35
 
   - name: touche
     buildsystem: meson
@@ -26,5 +26,5 @@ modules:
       - -Dsystem-config-file-path=/var/run/host/usr/share/touchegg/touchegg.conf
     sources:
       - type: archive
-        url: https://github.com/JoseExposito/touche/releases/download/2.0.9/archive.tar.gz
-        sha256: 5e714fbd28ecbbe3eea947d37bc9e7153d674c0710c1f57bb6efa9fc999b4b07
+        url: https://github.com/JoseExposito/touche/releases/download/2.0.10/archive.tar.gz
+        sha256: ec3f6d9df209ff9aa0cce9806307161b86c23c703ec709d57ca01a8912d2c84c

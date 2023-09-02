@@ -18,9 +18,13 @@ $ git tag X.Y.X && git push && git push --tags
 
 ### This repository:
 
+- Create a branch to perform the changes:
+```bash
+$ git switch -c vX.Y.X
+```
 - Download the `ARCHIVE-SHA256SUM` file from the Touché release, copy the SHA-256 sum and paste it in `com.github.joseexposito.touche.yml`.
 - Update the archive URL in `com.github.joseexposito.touche.yml`: `https://github.com/JoseExposito/touche/releases/download/X.Y.Z/archive.tar.gz`.
-- Commit and push changes.
+- Commit, push and create a pull request on [GitHub](https://github.com/flathub/com.github.joseexposito.touche).
 
 ## Useful links:
 
