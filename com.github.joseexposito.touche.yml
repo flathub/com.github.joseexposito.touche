@@ -1,6 +1,6 @@
 app-id: com.github.joseexposito.touche
 runtime: org.gnome.Platform
-runtime-version: '44'
+runtime-version: '45'
 sdk: org.gnome.Sdk
 command: com.github.joseexposito.touche
 finish-args:
@@ -26,5 +26,5 @@ modules:
       - -Dsystem-config-file-path=/var/run/host/usr/share/touchegg/touchegg.conf
     sources:
       - type: archive
-        url: https://github.com/JoseExposito/touche/releases/download/2.0.10/archive.tar.gz
-        sha256: ec3f6d9df209ff9aa0cce9806307161b86c23c703ec709d57ca01a8912d2c84c
+        url: https://github.com/JoseExposito/touche/releases/download/2.0.11/archive.tar.gz
+        sha256: fe95413d8e99ac33e5e66991ed57f0716ac8db0624d12ee6b11ae4e50d2de7a6
