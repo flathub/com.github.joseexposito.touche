@@ -26,5 +26,5 @@ modules:
       - -Dsystem-config-file-path=/var/run/host/usr/share/touchegg/touchegg.conf
     sources:
       - type: archive
-        url: https://github.com/JoseExposito/touche/releases/download/2.0.12/archive.tar.gz
-        sha256: bb795b8b5213276a984c938a50d7792ae4a0b4a62d16e0a0c71ac2a646081b0c
+        url: https://github.com/JoseExposito/touche/releases/download/2.0.14/archive.tar.gz
+        sha256: 4ce4869a6b5940a449836297dea14f02f43307e11fa91cacd0451655a6a2d864
