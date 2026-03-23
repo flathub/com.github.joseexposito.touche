@@ -1,7 +1,11 @@
 app-id: com.github.joseexposito.touche
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: '50'
 sdk: org.gnome.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.node22
+build-options:
+  append-path: /usr/lib/sdk/node22/bin
 command: com.github.joseexposito.touche
 finish-args:
   - '--share=ipc'
@@ -11,13 +15,6 @@ finish-args:
   - '--filesystem=host:ro'
   - '--device=dri'
 modules:
-  - name: nodejs
-    cleanup:
-      - '*'
-    sources:
-      - type: archive
-        url: https://nodejs.org/dist/v22.16.0/node-v22.16.0.tar.xz
-        sha256: 720894f323e5c1ac24968eb2676660c90730d715cb7f090be71a668662a17c37
 
   - name: touche
     buildsystem: meson
